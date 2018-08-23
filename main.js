@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function(){
   var ballPosition
   var userGuess
 
+
   name.addEventListener('keyup', function(event){
     if (event.target.value !== '') {
       startButton.className=""
@@ -23,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
   function genBallPosition() {
     // generate winning location
+
   }
 
   function incCounters() {
